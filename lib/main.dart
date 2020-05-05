@@ -1,4 +1,5 @@
-import 'package:emailapp/MessageList.dart';
+import 'package:emailapp/App.dart';
+//import 'package:emailapp/MessageList.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(EmailApp());
@@ -13,11 +14,11 @@ class EmailApp extends StatelessWidget {
          //primarySwatch: Colors.lightBlue,
          /*accentColor: Colors.orangeAccent,*/
          //brightness: Brightness.dark,
-        primaryColor: Colors.lightBlue[900],
-        accentColor: Colors.green[300],
+        primaryColor: Colors.blueGrey[800],
+        accentColor: Colors.blue[300],
       ),
       debugShowCheckedModeBanner: false,
-      home: MessageList(title: 'Home'),
+      home: App(),
     );
   }
 }
